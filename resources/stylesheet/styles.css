@@ -1,0 +1,488 @@
+
+@font-face {
+    font-family: 'wotfardregular';
+    src: url('../font/wotfard-regular-webfont.eot') format('embedded-opentype'),
+         url('../font/wotfard-regular-webfont.woff2') format('woff2'),
+         url('../font/wotfard-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'augsburger';
+    src: url('../font/Augsburger/augsburgerschriftcat-webfont.woff2') format('woff2'),
+         url('../font/Augsburger/augsburgerschriftcat-webfont.woff') format('woff'),
+         url('../font/Augsburger/AugsburgerSchriftCAT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pentagon';
+    src: url('../font/pentagon_wild_west/pentagon-webfont.woff') format('woff2'),
+         url('../font/pentagon_wild_west/pentagon-webfont.woff') format('woff'),
+         url('../font/pentagon_wild_west/Pentagon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'adine';
+    src: url('../font/adine_elegant/adine_kirnberg-webfont.woff2') format('woff2'),
+         url('../font/adine_elegant/adine_kirnberg-webfont.woff') format('woff'),
+         url('../font/adine_elegant/Adine_Kirnberg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'carnevalee';
+    src: url('../font/carivale_freakshow/carnevalee_freakshow-webfont.woff2') format('woff2'),
+         url('../font/carivale_freakshow/carnevalee_freakshow-webfont.woff') format('woff'),
+         url('../font/carivale_freakshow/Carnevalee_Freakshow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'norse';
+    src: url('../font/norse/norse-bold-webfont.woff2') format('woff2'),
+         url('../font/norse/norse-bold-webfont.woff') format('woff'),
+         url('../font/norse/Norse-Bold.otf') format('opentype'),
+         url('../font/norse/norse-webfont.woff2') format('woff2'),
+         url('../font/norse/norse-webfont.woff') format('woff'),
+         url('../font/norse/Norse.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color:blanchedalmond;
+    font-family: 'wotfardregular', Georgia, sans-serif;
+    margin: 0;
+}
+
+#wrapper {
+   
+    width: 100%; 
+   
+    
+}
+
+
+#header{
+    border: 2px dotted blanchedalmond;
+    margin: 0;}
+
+    
+#header h1{
+    font-size: 300%;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-top:100px;
+}
+
+
+nav {   
+    
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: lightskyblue; 
+    border: 2px solid black;
+  
+    
+  
+}
+
+nav ul{
+    
+    display: flex;
+    list-style: none; 
+    padding: 0;
+    width: 100%;
+   
+    
+    
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+   
+    
+}
+
+nav ul ul li{
+    text-align: left;
+    margin: 0 0 0 120px;
+    height: 50px;
+    width: 300px;
+    border: 2px solid black;
+    background-color:powderblue;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+nav ul li {
+    flex-grow: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 150%;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+
+nav ul a:hover {
+    color:orange;
+}
+
+.outer-container {
+    border: 2px solid black;
+    margin: 30px auto 30px auto;
+    padding: 20px;
+    width: 95%;
+    background-color: azure;
+}
+
+.color-container {
+    display:flex;
+    flex-wrap: wrap; 
+    gap: 30px;
+    
+    
+    
+    
+}
+
+.font-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    justify-content: space-between ;
+}
+
+.font-container > *{
+    
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    line-height: 35px;
+    
+    
+}
+
+
+
+
+.section-heading {
+    
+    margin: 0;
+    font-size: 250%;
+    font-style:italic;
+    padding: 10px 0 30px 0; 
+    
+     
+   
+}
+
+.sub-heading {
+    padding: 10px 0 10px 0;
+    font-size: 150%;
+    text-decoration: underline;
+    
+}
+
+.colors-tab {
+    
+    border: 4px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 650px;
+    background-color: whitesmoke;
+    
+
+}
+
+.colors-tab th {
+    background-color:cyan;
+    border: 2px solid black;
+    height: 60px;
+}
+
+.colors-tab td {
+    border: 2px solid black;
+    height: 70px;
+}
+
+.color-bar {
+    width:  40%;
+    
+
+}
+#lightsalmon {
+    background-color: lightsalmon;
+}
+
+#salmon{
+    background-color: salmon;
+}
+#darksalmon {
+    background-color: darksalmon;
+}
+#lightcoral {
+    background-color: lightcoral;
+}
+
+#indianred {
+    background-color: indianred;
+}
+
+#coral {
+    background-color: coral;
+}
+
+#tomato {
+    background-color: tomato;
+}
+
+#orangered {
+    background-color: orangered;
+}
+
+#gold {
+    background-color: gold;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#darkorange {
+    background-color: darkorange;
+}
+
+#crimson {
+    background-color: crimson;
+}
+
+#firebrick {
+    background-color: firebrick;
+}
+
+#red {
+    background-color: red;
+}
+
+#darkred {
+    background-color: darkred;
+}
+
+#lightyellow {
+    background-color: lightyellow;
+}
+
+#lemonchiffon{
+    background-color: lemonchiffon;
+}
+
+#lightgoldenrodyellow{
+    background-color: 	lightgoldenrodyellow;
+}
+
+#papayawhip {
+    background-color: papayawhip;
+}
+
+#moccasin {
+    background-color: moccasin;
+}
+
+#peachpuff {
+    background-color: peachpuff;
+}
+
+#palegoldenrod {
+    background-color: palegoldenrod;
+}
+
+#khaki {
+    background-color: khaki;
+}
+
+#darkkhaki {
+    background-color: darkkhaki;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#lawngreen {
+    background-color: lawngreen;
+}
+
+#chartreuse {
+    background-color: chartreuse;
+}
+
+#limegreen {
+    background-color: limegreen;
+}
+
+#lime {
+    background-color: lime;
+}
+
+#forestgreen {
+    background-color: forestgreen;
+}
+
+#green {
+    background-color: green;
+}
+
+#darkgreen {
+    background-color: darkgreen;
+}
+
+#greenyellow {
+    background-color: greenyellow;
+}
+
+#yellowgreen {
+    background-color: yellowgreen;
+}
+
+#springgreen {
+    background-color: springgreen;
+}
+
+#mediumspringgreen {
+    background-color: mediumspringgreen;
+}
+
+#lightgreen {
+    background-color: lightgreen;
+}
+
+#palegreen {
+    background-color: palegreen;
+}
+
+#darkseagreen {
+    background-color: darkseagreen;
+}
+
+#mediumseagreen {
+    background-color: mediumseagreen;
+}
+
+#seagreen {
+    background-color: seagreen;
+}
+
+#olive {
+    background-color: olive;
+}
+
+#darkolivegreen {
+    background-color: darkolivegreen;
+}
+
+#olivedrab {
+    background-color: olivedrab;
+}
+
+#times-new-roman {
+    font-family: 'Times New Roman', serif;
+    font-size: 120%;
+}
+
+#tahoma {
+    font-family: 'Tahoma';
+    font-size: 120%;
+}
+
+#roboto {
+    font-family: 'Roboto';
+    font-size:125%;
+}
+
+#merriweather {
+    font-family: merriweather;
+}
+
+#augsburger {
+    font-family: 'augsburger';
+    font-size: 125%;
+}
+
+#augsburger p {
+    font-size:135%;
+}
+
+#pentagon {
+    font-family: 'pentagon';
+    font-size: 130%;
+}
+
+#adine {
+    font-family: 'adine';
+    font-size: 170%;
+}
+
+#carnevalee {
+    font-family: 'carnevalee';
+    font-size: 120%;
+}
+
+#carnevalee p {
+    font-size: 130%;
+}
+
+#norse {
+    font-family: 'norse';
+    font-size:150%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .colors-tab {
+    
+        border: 4px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        width: 100%;    
+    }   
+   }

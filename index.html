@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Imported ROBOTO and MERRIWEATHER-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <link href="./resources/stylesheet/reset.css" rel="stylesheet">
+    <link href="./resources/stylesheet/styles.css" rel="stylesheet">
+
+
+
+
+    <title>Website Design System</title>
+</head>
+
+<body>
+
+
+    <div id="wrapper">
+
+        <div id="header">
+       
+            <!-- Navigation bar-->
+            <nav>
+                <ul>
+                    <li><a href="#">Colors</a>
+                        <ul>
+                            <li><a href="#red-and-orange">Red & Orange Colors</a></li>
+                            
+                            <!-- NOTE: in order to show yellow and green colors heading properly the ID darkerd is chosen as to better show the heading due to navigation bar covering the heading yellow and green colors if the ID would be chosen for #yellow-and-green -->
+                            <li><a href="#darkred">Yellow & Green Colors</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#olivedrab">Fonts</a></li>
+                    <li><a href="#">Text Styles</a></li>
+                
+                </ul>
+            </nav>
+      
+            <h1 id="red-and-orange" >My Website Style Guide</h1>
+        
+        </div>      <!-- end of #header-->
+    
+    <div class="outer-container">
+        <h2 class="section-heading">Colors</h2>
+
+            
+        <!-- Div container for all the tables with all different colors so main(or outer) color container-->
+        <div class="color-container">
+
+            <!-- div containing specific 'color family' and heading-->
+            <div class="specific-color-container">
+                
+                <h2 class="sub-heading">Red Colors</h2>
+                
+                <!-- table for specific color family-->
+                <table class="colors-tab">
+                        
+                        <thed>
+                            <tr>
+                                <th class="color-bar">Color</th>
+                                <th>HTML / CSS Color Name</th>
+                                <th>Hex Code #RRGGBB</th>
+                                <th>Decimal Code(R,G,B)</th>
+                            </tr>
+                        </thed>
+                        <tbody>
+                            <tr>
+                                <td id = "lightsalmon"></td>
+                                <td>lightsalmon</td>
+                                <td>#FFA07A</td>
+                                <td>rgb(255,160,122)</td>
+                            </tr>
+                            <tr>
+                                <td id="salmon"></td>
+                                <td>salmon</td>
+                                <td>#FA8072</td>
+                                <td>rgb(250,128,114)</td>
+                            </tr>
+                            <tr>
+                                <td id="darksalmon"></td>
+                                <td>darksalmon</td>
+                                <td>#E9967A</td>
+                                <td>rgb(233,150,122)</td>
+                            </tr>
+                            <tr>
+                                <td id="lightcoral"></td>
+                                <td>lightcoral</td>
+                                <td>#F08080</td>
+                                <td>rgb(240,128,128)</td>
+                            </tr>
+                            <tr>
+                                <td id="indianred"></td>
+                                <td>indianred</td>
+                                <td>#CD5C5C</td>
+                                <td>rgb(205,92,92)</td>
+                            </tr>
+                            <tr>
+                                <td id="crimson"></td>
+                                <td>crimson</td>
+                                <td>#DC143C	</td>
+                                <td>rgb(220,20,60</td>
+                            </tr>
+                            <tr>
+                                <td id="firebrick"></td>
+                                <td>firebrick</td>
+                                <td>#B22222</td>
+                                <td>rgb(178,34,34)</td>
+                            </tr>
+                            <tr>
+                                <td id="red"></td>
+                                <td>red</td>
+                                <td>#FF0000</td>
+                                <td>rgb(255,0,0)</td>
+                            </tr>
+                            <tr>
+                                <td id="darkred"></td>
+                                <td>darkred</td>
+                                <td>#8B0000</td>
+                                <td>rgb(139,0,0)</td>
+                            </tr>
+                        </tbody>
+                    
+                </table>
+              </div>        <!-- end of .specific-color-container -->
+
+            <div class="specific-color-container">
+            <h2 class="sub-heading">Orange Colors</h2>
+                <table class="colors-tab">
+                    <tr>
+                        <th class="color-bar">Color</th>
+                        <th>HTML / CSS Color Name</th>
+                        <th>Hex Code #RRGGBB</th>
+                        <th>Decimal Code(R,G,B)</th>
+                    </tr>
+                    <tr>
+                        <td id="coral"></td>
+                        <td>coral</td>
+                        <td>#FF7F50</td>
+                        <td>rgb(255,127,80)</td>
+                    </tr>
+                    <tr>
+                        <td id="tomato"></td>
+                        <td>tomato</td>
+                        <td>#FF6347	</td>
+                        <td>rgb(255,99,71)</td>
+                    </tr>
+                    <tr>
+                        <td id="orangered"></td>
+                        <td>orangered</td>
+                        <td>#FF4500</td>
+                        <td>rgb(255,69,0)</td>
+                    </tr>
+                    <tr>
+                        <td id="gold"></td>
+                        <td>gold</td>
+                        <td>#FFD700</td>
+                        <td>rgb(255,215,0)</td>
+                    </tr>
+                    <tr>
+                        <td id="orange"></td>
+                        <td>orange</td>
+                        <td>#FFA500</td>
+                        <td>rgb(255,165,0)</td>
+                    </tr>
+                    <tr>
+                        <td id="darkorange"></td>
+                        <td>darkorange</td>
+                        <td>#FF8C00</td>
+                        <td>rgb(255,140,0)</td>
+                    </tr>
+
+                </table>
+            </div>        <!-- end of .specific-color-container -->
+
+              <div class="specific-color-container">
+                <h2 class="sub-heading" id="yellow-and-green">Yellow Colors</h2>
+
+                <table class="colors-tab">
+                    <tr>
+                        <th class="color-bar">Color</th>
+                        <th>HTML / CSS Color Name</th>
+                        <th>Hex Code #RRGGBB</th>
+                        <th>Decimal Code(R,G,B)</th>
+                    </tr>
+                    <tr>
+                        <td id="lightyellow"></td>
+                        <td>lightyellow</td>
+                        <td>#FFFFE0</td>
+                        <td>rgb(255,255,224)</td>
+                    </tr>
+                    <tr>
+                        <td id="lemonchiffon"></td>
+                        <td>lemonchiffon</td>
+                        <td>#FFFACD	</td>
+                        <td>rgb(255,250,205)</td>
+                    </tr>
+                    <tr>
+                        <td id="lightgoldenrodyellow"></td>
+                        <td>lightgoldenrodyellow</td>
+                        <td>#FAFAD2	</td>
+                        <td>rgb(250,250,210)</td>
+                    </tr>
+                    <tr>
+                        <td id="papayawhip"></td>
+                        <td>papayawhip</td>
+                        <td>#FFEFD5	</td>
+                        <td>rgb(255,239,213)</td>
+                    </tr>
+                    <tr>
+                        <td id="moccasin"></td>
+                        <td>moccasin</td>
+                        <td>#FFE4B5</td>
+                        <td>rgb(255,228,181)</td>
+                    </tr>
+                    <tr>
+                        <td id="peachpuff"></td>
+                        <td>peachpuff</td>
+                        <td>#FFDAB9</td>
+                        <td>rgb(255,218,185)</td>
+                    </tr>
+                    <tr>
+                        <td id="palegoldenrod"></td>
+                        <td>palegoldenrod</td>
+                        <td>#EEE8AA</td>
+                        <td>rgb(238,232,170)</td>
+                    </tr>
+                    <tr>
+                        <td id="khaki"></td>
+                        <td>khaki</td>
+                        <td>#F0E68C</td>
+                        <td>rgb(240,230,140)</td>
+                    </tr>
+                    <tr>
+                        <td id="darkkhaki"></td>
+                        <td>darkkhaki</td>
+                        <td>#BDB76B</td>
+                        <td>rgb(189,183,107)</td>
+                    </tr>
+                    <tr>
+                        <td id="yellow"></td>
+                        <td>yellow</td>
+                        <td>#FFFF00</td>
+                        <td>rgb(255,255,0)</td>
+                    </tr>
+                </table>
+              </div>        <!-- end of .specific-color-container -->
+
+              <div class="specific-color-container">
+                <h2 class="sub-heading">Green Colors</h2>
+                <table class="colors-tab">
+                    <tr>
+                        <th class="color-bar">Color</th>
+                        <th>HTML / CSS Color Name</th>
+                        <th>Hex Code #RRGGBB</th>
+                        <th>Decimal Code(R,G,B)</th>
+
+                    </tr>
+                    <tr>
+                        <td id="lawngreen"></td>
+                        <td>lawngreen</td>
+                        <td>#7CFC00</td>
+                        <td>rgb(124,252,0)</td>
+                    </tr>
+                    <tr>
+                        <td id="chartreuse"></td>
+                        <td>chartreuse</td>
+                        <td>#7FFF00</td>
+                        <td>rgb(127,255,0)</td>
+                    </tr>
+                    <tr>
+                        <td id="limegreen"></td>
+                        <td>limegreen</td>
+                        <td>#32CD32</td>
+                        <td>rgb(50,205,50)</td>
+                    </tr>
+                    <tr>
+                        <td id="lime"></td>
+                        <td>lime</td>
+                        <td>#00FF00</td>
+                        <td>rgb(0,255,0)</td>
+                    </tr>
+                    <tr>
+                        <td id="forestgreen"></td>
+                        <td>forestgreen</td>
+                        <td>#228B22</td>
+                        <td>rgb(34,139,34)</td>
+                    </tr>
+                    <tr>
+                        <td id="green"></td>
+                        <td>green</td>
+                        <td>#008000</td>
+                        <td>rgb(0,128,0)</td>
+                    </tr>
+                    <tr>
+                        <td id="darkgreen"></td>
+                        <td>darkgreen</td>
+                        <td>#006400</td>
+                        <td>rgb(0,100,0)</td>
+                    </tr>
+                    <tr>
+                        <td id="greenyellow"></td>
+                        <td>greenyellow</td>
+                        <td>#ADFF2F</td>
+                        <td>rgb(173,255,47)</td>
+                    </tr>
+                    <tr>
+                        <td id="yellowgreen"></td>
+                        <td>yellowgreen</td>
+                        <td>#9ACD32</td>
+                        <td>rgb(154,205,50)</td>
+                    </tr>
+                    <tr>
+                        <td id="springgreen"></td>
+                        <td>springgreen</td>
+                        <td>#00FF7F</td>
+                        <td>rgb(0,255,127)</td>
+                    </tr>
+                    <tr>
+                        <td id="mediumspringgreen"></td>
+                        <td>mediumspringgreen</td>
+                        <td>#00FA9A</td>
+                        <td>rgb(0,250,154)</td>
+                    </tr>
+                    <tr>
+                        <td id="lightgreen"></td>
+                        <td>lightgreen</td>
+                        <td>#90EE90</td>
+                        <td>rgb(144,238,144)</td>
+                    </tr>
+                    <tr>
+                        <td id="palegreen"></td>
+                        <td>palegreen</td>
+                        <td>#98FB98</td>
+                        <td>rgb(152,251,152)</td>
+                    </tr>
+                    <tr>
+                        <td id="darkseagreen"></td>
+                        <td>darkseagreen</td>
+                        <td>#8FBC8F</td>
+                        <td>rgb(143,188,143)</td>
+                    </tr>
+                    <tr>
+                        <td id="mediumseagreen"></td>
+                        <td>mediumseagreen</td>
+                        <td>#3CB371</td>
+                        <td>rgb(60,179,113)</td>
+                    </tr>
+                    <tr>
+                        <td id="seagreen"></td>
+                        <td>seagreen</td>
+                        <td>#2E8B57</td>
+                        <td>rgb(46,139,87)</td>
+                    </tr>
+                    <tr>
+                        <td id="olive"></td>
+                        <td>olive</td>
+                        <td>#808000</td>
+                        <td>rgb(128,128,0)</td>
+                    </tr>
+                    <tr>
+                        <td id="darkolivegreen"></td>
+                        <td>darkolivegreen</td>
+                        <td>#556B2F</td>
+                        <td>rgb(85,107,47)</td>
+                    </tr>
+                    <tr>
+                        <td id="olivedrab"></td>
+                        <td>olivedrab</td>
+                        <td>#6B8E23</td>
+                        <td>rgb(107,142,35)</td>
+                    </tr>
+
+                </table>
+              </div>    <!-- end of .specific-color-container -->
+
+              </div>    <!-- End of .color-container -->
+              
+        </div>      <!-- End of .outer-contaier (Container for Colors)-->
+
+        <div class="outer-container">
+            <h2 class="section-heading" id="fonts">Fonts</h2>
+
+            <div class="font-container">
+                <div id="times-new-roman">
+                    <h3 class="sub-heading">Times New Roman for serif family</h3>
+                    <p>Once upon a time, there was a boy ...</p>
+                    <p><b>Once upon a time, there was a boy ...</b></p>
+                    <p><i>Once upon a time, there was a boy ...</i></p>
+                </div>
+                
+                <div id="tahoma">
+                    <h3 class="sub-heading">Tahome - for sans serif family</h3>
+                    <p>Once upon a time, there was a boy ...</p>
+                    <p><b>Once upon a time, there was a boy ...</b></p>
+                    <p><i>Once upon a time, there was a boy ...</i></p>
+                </div>
+
+                <div id="roboto">
+                    <h3 class="sub-heading">Roboto is best used in tables</h3>
+                    <p>Once upon a time, there was a boy ...</p>
+                    <p><b>Once upon a time, there was a boy ...</b></p>
+                    <p><i>Once upon a time, there was a boy ...</i></p>
+                </div>
+
+                <div id="merriweather">
+                    <h3 class="sub-heading">Merriweather is nice overall.</h3>
+                    <p>Once upon a time, there was a boy ...</p>
+                    <p><b>Once upon a time, there was a boy ...</b></p>
+                    <p><i>Once upon a time, there was a boy ...</i></p>
+                </div>
+
+                <div id="augsburger">
+                    <h3 class="sub-heading">Augsburger - fancy old German font</h3>
+                    <p>Once upon a time, there was a boy ...</p>
+                    <p><b>Once upon a time, there was a boy ...</b></p>
+                    <p><i>Once upon a time, there was a boy ...</i></p>                    
+                </div>
+
+                <div id="pentagon">
+                    <h3 class="sub-heading">Good old west - Pentagon</h3>
+                    <p>Once upon a time, there was a boy ...</p>
+                    <p><b>Once upon a time, there was a boy ...</b></p>
+                    <p><i>Once upon a time, there was a boy ...</i></p>
+                </div>
+
+                <div id="adine">
+                    <h3 class="sub-heading">Something for special ocasion - Adine</h3>
+                    <p>Once upon a time, there was a boy ...</p>
+                    <p><b>Once upon a time, there was a boy ...</b></p>
+                    <p><i>Once upon a time, there was a boy ...</i></p>
+                </div>
+
+                <div id="norse">
+                    <h3 class="sub-heading">... a little bit of Runic font ...</h3>
+                    <p>Once upon a time, there was a boy ...</p>
+                    <p><b>Once upon a time, there was a boy ...</b></p>
+                    <p><i>Once upon a time, there was a boy ...</i></p>
+                </div>
+                
+                <div id="carnevalee">
+                    <h3 class="sub-heading">To wrap it al up with Carnevalee</h3>
+                    <p>Once upon a time, there was a boy ...</p>
+                    <p><b>Once upon a time, there was a boy ...</b></p>
+                    <p><i>Once upon a time, there was a boy ...</i></p>
+                </div>           
+            
+            </div>      <!-- End of Font Container-->
+        
+        </div>      <!-- End of .outer_container for fonts-->
+        <!-- End of Outer Container-->
+
+        <div class="outer-container">
+            <h2 class="section-heading">Text Styles</h2>
+        </div>
+    
+ </div>  <!-- End of #wrapper--> 
+</body>
+</html>
